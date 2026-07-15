@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Excel temp/lock files
+~$*.xlsx
+*.tmp
+
+# Local database files
+*.db
+*.sqlite
+
+# Credentials — never commit connection strings or secrets
+.env
+*.config

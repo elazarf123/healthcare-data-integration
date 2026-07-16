@@ -40,6 +40,10 @@ healthcare-data-integration/
 │   ├── 02_ehr_claims_reconciliation.sql  # Clinical-vs-billing join with mismatch flags
 │   ├── 03_chronic_condition_timeline.sql # Longitudinal tracking with window functions
 │   └── 04_billing_denial_analysis.sql    # Payer-level denial rates & dollars
+├── analysis/
+│   ├── visit_analysis.py                 # Same questions in Python (pandas)
+│   ├── source_summary.md                 # Findings write-up
+│   └── billing_by_status.png             # Paid vs denied dollars chart
 └── docs/
     └── data_dictionary.md                # Column definitions & source-system notes
 ```
@@ -56,7 +60,9 @@ The March 15 encounter produced a claim denial: the EHR documented `J45.909` (as
 
 ## Skills & Tools
 
-Excel (cleaning, classification, validation) · SQL (joins, self-joins, window functions, conditional aggregation, CTE-ready structure) · Healthcare data standards (ICD-10-CM, CPT) · Revenue-cycle concepts (adjudication, denials, resubmission)
+Excel (cleaning, classification, validation) · SQL (joins, self-joins, window functions, conditional aggregation, CTE-ready structure) · Python (pandas analysis + matplotlib chart in `analysis/`) · Healthcare data standards (ICD-10-CM, CPT) · Revenue-cycle concepts (adjudication, denials, resubmission)
+
+The same business questions are answered three ways — Excel, SQL, and Python — deliberately: tools change, the analytical process (Ask → Prepare → Process → Analyze → Share) doesn't.
 
 ## About Me
 

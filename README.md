@@ -66,6 +66,6 @@ The same business questions are answered three ways — Excel, SQL, and Python �
 
 ## About Me
 
-IT Support Specialist → Healthcare Data Analyst in progress. Years of hands-on experience supporting insurance systems and the people who use them, now applying that operational knowledge to the data itself.
+Member Services Representative on a health plan account (2023–present), applying what I see in day-to-day insurance support to the data itself.
 
 📫 elazarferrer1@gmail.com · [GitHub](https://github.com/elazarf123)
